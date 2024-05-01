@@ -4,6 +4,7 @@ import time       # to hold program
 import threading  # to work with flow
 import random
 
+#origin file
 bot = telebot.TeleBot("6690518039:AAEAoDRPdd58mw5rVdL6ANbptux_3UncIwQ")
 
 @bot.message_handler(commands=['start'])
